@@ -1,51 +1,13 @@
 #clock {
+    position: relative;
 }
 
-#clock::after {
-    content: '';
-    position: absolute;
 
-}
 #clock img {
+    position: absolute; 
 }
 /*Use CSS transform rotation to rotate the hands of the clock.*/
-#hour {
-    --rotation:90;
-    position:absolute;
-    bottom:12%;
-    left:1%;
-    translate:X(-200%);
-    transform: rotate(45deg);
-  
-   
-}
 
-#minute {
-    --rotation: 90;
-    position:absolute;
-    bottom:12%;
-    left:1%;
-    translate:X(-200%);
-    transform: rotate(90deg);
-    
- 
-}
-
-#clock #second {
-    --rotation: 0;
-  position:absolute;
-  bottom:12%;
-  left:1%;
-  translate:X(-200%);
-   
-  
-    
-}
-
-
-#myElement {
-    transform: rotate(45deg);
-  }
 
 
   /*transform: rotate(45deg);

@@ -1,4 +1,13 @@
 
+console.log('hello, frontend!');
+//Clock rotation calc
+
+//set in action motion
+
+
+//current time
+
+
 const hourHand = document.getElementById('hour');
 const minuteHand = document.getElementById('minute');
 const secondHand = document.getElementById('second');
